@@ -8,4 +8,12 @@ end
 
 # code your #input_to_inbox here
 
-puts = "1" - "9"
+def input_to_index(input)
+  input.to_i - 1
+end
+
+def move(board, index, current_player = "X")
+  board[index] = current_player
+end
+
+  
